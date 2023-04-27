@@ -378,16 +378,19 @@ Immune to Freeze and Chill while Ignited
 Damage Penetrates 15% of Fire Resistance if you have Blocked Recently
 ]],[[
 Pillar of the Caged God
-Iron Staff
+{variant:1,2,3}Long Staff
+{variant:4}Iron Staff
+Variant: Pre 1.0.0
 Variant: Pre 2.6.0
+Variant: Pre 3.7.0
 Variant: Current
-Requires Level 13, 27 Str, 27 Int
 Implicits: 2
-{variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-{variant:2}+18% Chance to Block Attack Damage while wielding a Staff
-1% increased Area of Effect of Area Skills per 20 Intelligence
+{variant:1,2}+12% Chance to Block Attack Damage while wielding a Staff
+{variant:3,4}+18% Chance to Block Attack Damage while wielding a Staff
+1% increased Area of Effect per 20 Intelligence
 1% increased Attack Speed per 10 Dexterity
-16% increased Physical Weapon Damage per 10 Strength
+{variant:1}10% increased Physical Weapon Damage per 10 Strength
+{variant:2,3,4}16% increased Physical Weapon Damage per 10 Strength
 ]],[[
 Pledge of Hands
 Judgement Staff
@@ -550,12 +553,11 @@ Implicits: 2
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
 {variant:2,3}+18% Chance to Block Attack Damage while wielding a Staff
 {variant:3}+2 to Level of Socketed Spell Gems
-{variant:1,2}Socketed Gems are Supported by Level 10 Remote Mine
-{variant:3}Socketed Gems are Supported by Level 10 Blastchain Mine
+{variant:1,2,3}Socketed Gems are Supported by Level 10 Blastchain Mine
 {variant:1,2}35% less Mine Damage
 (40-60)% increased Spell Damage
 (15-20)% reduced Enemy Stun Threshold
-{variant:1,2}(40-60)% increased Mine Laying Speed
+{variant:1,2}(40-60)% increased Mine Throwing Speed
 Mines can be Detonated an additional time
 ]],[[
 The Whispering Ice

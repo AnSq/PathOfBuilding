@@ -216,7 +216,7 @@ Implicits: 1
 +(40-60) to Intelligence
 {variant:1,2}(80-100)% increased Evasion Rating
 {variant:3}(180-200)% increased Evasion Rating
-+(20-30) to all Elemental Resistances
++(20-30)% to all Elemental Resistances
 {variant:2,3}50% reduced Duration of Curses on you
 Hex Reflection
 {variant:3}+10% Chance to Block Attack Damage while not Cursed
@@ -244,7 +244,7 @@ Variant: Pre 3.17.0
 Variant: Pre 3.19.0
 Variant: Current
 Implicits: 1
-{variant:3,4}9% increased Movement Speed
+{variant:3,4,5}9% increased Movement Speed
 {variant:1,2,3,4}+1 to Level of Socketed Curse Gems
 {variant:5}+3 to Level of Socketed Curse Gems
 (30-50)% increased Evasion Rating
@@ -525,7 +525,7 @@ Implicits: 2
 {variant:3}+(70-100) to maximum Life
 +(30-40)% to Lightning Resistance
 +(17-29)% to Chaos Resistance
-Chaos Damage does not bypass Energy Shield while not on Low Life
+Chaos Damage taken does not bypass Energy Shield while not on Low Life
 Reflect Shocks applied to you to all Nearby Enemies
 ]],[[
 The Eternal Apple
@@ -1146,8 +1146,11 @@ Lose (10-15)% of Life when you deal a Critical Strike
 ]],[[
 Zeel's Amplifier
 Polished Spiked Shield
-Implicits: 1
-+5% chance to Suppress Spell Damage
+Variant: Pre 3.16.0
+Variant: Current
+Implicits: 2
+{variant:1}+4% chance to Suppress Spell Damage
+{variant:2}+5% chance to Suppress Spell Damage
 (40-50)% increased Spell Damage
 +(60-80) to maximum Energy Shield
 +(50-70) to maximum Life

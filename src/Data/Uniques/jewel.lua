@@ -497,7 +497,7 @@ Replica Primordial Might
 Crimson Jewel
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
--1 to maximum number of Golems
+-1 to maximum number of Summoned Golems
 (25-30)% increased Damage if you Summoned a Golem in the past 8 seconds
 Golems Summoned in the past 8 seconds deal (100-125)% increased Damage
 Golems have (18-22)% increased Maximum Life
@@ -800,7 +800,7 @@ Crimson Jewel
 Source: Vendor Recipe
 Limited to: 2
 Radius: Medium
-(10-15)% increased Elemental Damage with Attack Skills
+(10-15)% increased Elemental Damage
 With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold
 With 40 total Strength and Intelligence in Radius, Prismatic Skills deal 50% less Cold Damage
 ]],[[
@@ -809,7 +809,7 @@ Cobalt Jewel
 Source: Vendor Recipe
 Limited to: 2
 Radius: Medium
-(10-15)% increased Elemental Damage with Attack Skills
+(10-15)% increased Elemental Damage
 With 40 total Intelligence and Dexterity in Radius, Prismatic Skills cannot choose Fire
 With 40 total Intelligence and Dexterity in Radius, Prismatic Skills deal 50% less Fire Damage
 ]],[[
@@ -818,8 +818,8 @@ Viridian Jewel
 Source: Vendor Recipe
 Limited to: 2
 Radius: Medium
-(10-15)% increased Elemental Damage with Attack Skills
-With 40 total Dexterity and Strength in Radius, Prismatic Skills Strike cannot choose Lightning
+(10-15)% increased Elemental Damage
+With 40 total Dexterity and Strength in Radius, Prismatic Skills cannot choose Lightning
 With 40 total Dexterity and Strength in Radius, Prismatic Skills deal 50% less Lightning Damage
 ]],[[
 Collateral Damage
@@ -847,9 +847,9 @@ Variant: Pre 3.8.0
 Variant: Current
 Radius: Medium
 Minions have +(7-10)% to all Elemental Resistances
-{variant:1}With at least 40 Intelligence in Radius, can summon up to 3 Skeleton Mages with Summon Skeletons
-{variant:2}With at least 40 Intelligence in Radius, can summon up to 5 Skeleton Mages with Summon Skeletons
-{variant:3}With at least 40 Intelligence in Radius, can summon up to 15 Skeleton Mages with Summon Skeletons
+{variant:1}With at least 40 Intelligence in Radius, Summon Skeletons can Summon up to 3 Skeleton Mages
+{variant:2}With at least 40 Intelligence in Radius, Summon Skeletons can Summon up to 5 Skeleton Mages
+{variant:3}With at least 40 Intelligence in Radius, Summon Skeletons can Summon up to 15 Skeleton Mages
 ]],[[
 Fight for Survival
 Viridian Jewel
@@ -976,7 +976,7 @@ Source: No longer obtainable
 Limited to: 1
 Radius: Medium
 (10-15)% increased Global Physical Damage
-With at least 40 Strength in Radius, Cleave grants Fortify on Hit
+With at least 40 Strength in Radius, Hits with Cleave Fortify
 With at least 40 Strength in Radius, Cleave has +1 to Radius per Nearby Enemy, up to +10
 ]],[[
 Pitch Darkness
@@ -1112,9 +1112,10 @@ Variant: Pre 2.6.0
 Variant: Current
 Limited to: 2
 Radius: Medium
-{variant:1}Minions have (5-8)% increased Area of Effect of Area Skills
-{variant:2}Minions have (6-8)% increased Area of Effect of Area Skills
-With at least 40 Intelligence in Radius, Raised Spectres have a 50% chance to gain Soul Eater for 20 seconds on Kill
+{variant:1}Minions have (5-8)% increased Area of Effect
+{variant:2}Minions have (6-8)% increased Area of Effect
+{variant:1}With at least 40 Intelligence in Radius, Raised Spectres have a 20% chance to gain Soul Eater for 20 seconds on Kill
+{variant:2}With at least 40 Intelligence in Radius, Raised Spectres have a 50% chance to gain Soul Eater for 20 seconds on Kill
 ]],[[
 The Vigil
 Crimson Jewel
@@ -1445,7 +1446,7 @@ Limited to: 1
 Radius: Medium
 Minions have (12-16)% increased Attack Speed
 Minions have (12-16)% increased Cast Speed
-Minions have (20-24)% chance to Suppress Spell Damage
+Minions have +(20-24)% chance to Suppress Spell Damage
 Notable Passive Skills in Radius are Transformed to instead grant: Minions have 25% reduced Movement Speed
 {variant:2}Corrupted
 ]],[[
@@ -1590,8 +1591,8 @@ Limited to: 1
 {variant:2}10% chance to Avoid Elemental Ailments
 {variant:1}8% increased Life Recovery from Flasks
 {variant:2}10% increased Life Recovery from Flasks
-{variant:1}3% chance to Suppress Spell Damage
-{variant:2}5% chance to Suppress Spell Damage
+{variant:1}+3% chance to Suppress Spell Damage
+{variant:2}+5% chance to Suppress Spell Damage
 ]],[[
 Conqueror's Potency
 Cobalt Jewel
@@ -1651,9 +1652,9 @@ Variant: Pre 3.16.0
 Variant: Current
 Limited to: 1
 {variant:1}8% increased Attack Damage
-{variant:1}+1 Melee Strike Range
+{variant:1}+1 to Melee Strike Range
 {variant:2}10% increased Attack Damage
-{variant:2}+2 Melee Strike Range
+{variant:2}+2 to Melee Strike Range
 ]],
 -- Jewel: Labyrinth rewards
 [[

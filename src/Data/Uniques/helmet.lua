@@ -186,6 +186,7 @@ Implicits: 0
 {variant:1}Grants Level 20 Snipe Skill
 {variant:2}Grants Level 30 Snipe Skill
 Socketed Non-Channelling Bow Skills are Triggered by Snipe
+Socketed Triggered Bow Skills gain a 0.05 second Cooldown
 +(350-500) to Accuracy Rating
 +(350-500) to Evasion Rating
 {variant:2}+2 to maximum Snipe Stages
@@ -412,7 +413,7 @@ Requires Level 52
 {variant:1}+(260-300) to maximum Energy Shield
 {variant:2}+(170-210) to maximum Energy Shield
 Reflects 5 Physical Damage to Melee Attackers
-Take 5 Physical Damage when hit by Attacks
++5 Physical Damage taken from Attack Hits
 Pain Attunement
 ]],[[
 The Devouring Diadem
@@ -504,10 +505,13 @@ Curse Skills have (30-50)% increased Skill Effect Duration
 Eber's Unification
 Hubris Circlet
 Requires Level 69, 154 Int
+Variant: Pre 3.5.0
+Variant: Current
 Implicits: 0
 Trigger Level 10 Void Gaze when you use a Skill
 +(50-80) to maximum Mana
-(120-150)% increased Energy Shield
+{variant:1}(120-150)% increased Energy Shield
+{variant:2}(150-180)% increased Energy Shield
 50% increased Stun and Block Recovery
 Gain (5-8)% of Elemental Damage as Extra Chaos Damage
 ]],[[
@@ -932,8 +936,8 @@ Variant: Current
 League: Bestiary
 Source: Drops from unique{Craiceann, First of the Deep}
 Requires Level 58, 64 Str, 64 Int
-{variant:1}+(7-9)% Chance to Block Spell Damage
-{variant:2}+(4-6)% Chance to Block Spell Damage
+{variant:1}(7-9)% Chance to Block Spell Damage
+{variant:2}(4-6)% Chance to Block Spell Damage
 (140-180)% increased Armour and Energy Shield
 (4-7)% increased maximum Life
 Cannot lose Crab Barriers if you have lost Crab Barriers Recently
@@ -1208,7 +1212,7 @@ Requires Level 52, 58 Dex, 58 Int
 {variant:2,3}+(60-80) to maximum Life
 (0.4-0.8)% of Physical Attack Damage Leeched as Life
 Reflects 100 to 150 Physical Damage to Melee Attackers
-{variant:1,2}30% of Damage you Reflect to Enemies when Hit is gained as Life
+{variant:1,2}30% of Damage you Reflect to Enemies when Hit is leeched as Life
 {variant:3}100% of Damage you Reflect to Enemies when Hit is leeched as Life
 ]],[[
 Curtain Call
@@ -1502,7 +1506,6 @@ League: Expedition
 Source: Drops from unique{Olroth, Origin of the Fall} in normal{Expedition Logbook}
 Requires Level 68, 66 Str, 66 Dex, 66 Int
 Never deal Critical Strikes
-Nearby Enemies cannot deal Critical Strikes
 Battlemage
 ]],
 }

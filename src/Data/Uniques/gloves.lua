@@ -258,8 +258,8 @@ Trigger Level 10 Assassin's Mark when you Hit a Rare or Unique Enemy
 (30-40)% increased Accuracy Rating
 +(40-50) to maximum Life
 -(20-10)% to Chaos Resistance
-{variant:1}(7-8)% chance to Suppress Spell Damage
-{variant:2}(10-12)% chance to Suppress Spell Damage
+{variant:1}+(7-8)% chance to Suppress Spell Damage
+{variant:2}+(10-12)% chance to Suppress Spell Damage
 2% increased Attack Critical Strike Chance per 200 Accuracy Rating
 ]],[[
 Painseeker
@@ -282,7 +282,7 @@ Variant: Current
 Grants Level 22 Blight Skill
 {variant:1}(20-30)% increased Damage over Time
 (100-120)% increased Energy Shield
-10% increased Area of Effect of Area Skills
+10% increased Area of Effect
 Blight has (20-30)% increased Hinder Duration
 You cannot be Hindered
 ]],[[
@@ -467,7 +467,7 @@ Source: Drops in Blighted Maps
 +(30-50) to maximum Mana
 +(10-16)% to all Elemental Resistances
 (5-10)% increased Attack and Cast Speed
-Create a Blighted Spore when you Kill a Rare Monster
+Create a Blighted Spore when your Skills or Minions Kill a Rare Monster
 This item can be anointed by Cassia
 ]],[[
 Farrul's Pounce
@@ -660,7 +660,7 @@ Requires Level 57, 44 Str, 44 Int
 (150-180)% increased Armour and Energy Shield
 +(50-70) to maximum Life
 (20-40)% increased Mana Regeneration Rate
-Dispels Elemental Ailments on Rampage
+Removes Elemental Ailments on Rampage
 Gain Immunity to Physical Damage for 1.5 seconds on Rampage
 Rampage
 ]],[[
@@ -868,7 +868,7 @@ Requires Level 45, 35 Dex, 35 Int
 Skills which throw Traps Cost Life instead of Mana
 Skills used by Traps have (10-20)% increased Area of Effect
 Increases and Reductions to Cast Speed also Apply to Trap Throwing Speed
-10% chance to gain an Endurance, Frenzy or Power Charge when any of your Traps is Triggered by an Enemy
+10% chance to gain an Endurance, Frenzy or Power Charge when any of your Traps are Triggered by an Enemy
 ]],[[
 Blasphemer's Grasp
 Assassin's Mitts
@@ -1057,6 +1057,6 @@ Requires Level 48, 31 Str, 31 Dex, 31 Int
 +(17-23)% to Chaos Resistance
 {variant:1}Gain Added Chaos Damage equal to 25% of Ward
 {variant:2}Gain Added Chaos Damage equal to 20% of Ward
-75% of Damage bypasses Ward
+75% of Damage taken bypasses Ward
 ]],
 }

@@ -22,8 +22,8 @@ Implicits: 0
 {variant:1}Adds 2 to 4 Physical Damage to Attacks
 {variant:1}+(12-20) to maximum Life
 {variant:2}+(30-60) to maximum Life
-{variant:1}-2 Physical Damage taken from Attacks
-{variant:2}-(10-15) Physical Damage taken from Attacks
+{variant:1}-2 Physical Damage taken from Attack Hits
+{variant:2}-(10-15) Physical Damage taken from Attack Hits
 {variant:1}40% of Melee Physical Damage taken reflected to Attacker
 {variant:2}1000% of Melee Physical Damage taken reflected to Attacker
 ]],[[
@@ -35,7 +35,7 @@ Implicits: 0
 Adds 2 to 4 Physical Damage to Attacks
 +2000 to Armour
 +(12-20) to maximum Life
--2 Physical Damage taken from Attacks
+-2 Physical Damage taken from Attack Hits
 40% of Melee Physical Damage taken reflected to Attacker
 ]],[[
 The Brass Dome
@@ -206,7 +206,7 @@ Cannot be Ignited
 {variant:1,2}(10-15)% increased Physical Damage with Ranged Weapons
 {variant:3}(75-150)% increased Physical Damage with Ranged Weapons
 {variant:1,2}-(5-7) Physical Damage taken from Attack Hits
-{variant:3}-(30-60)Physical Damage taken from Attack Hits
+{variant:3}-(30-60) Physical Damage taken from Attack Hits
 ]],[[
 Briskwrap
 {variant:1,2,3}Strapped Leather
@@ -319,7 +319,7 @@ Implicits: 0
 {variant:5}Adds (173-188) to (240-262) Cold Damage to Bow Attacks
 {variant:6}Adds (100-145) to (160-200) Cold Damage to Bow Attacks
 {variant:1,2}Acrobatics
-{variant:3,4,5,6}30% chance to Suppress Spell Damage
+{variant:3,4,5,6}+30% chance to Suppress Spell Damage
 ]],[[
 Kintsugi
 Exquisite Leather
@@ -354,7 +354,7 @@ The Rat Cage
 Sharkskin Tunic
 League: Torment
 Variant: Pre 2.6.0
-Variant: 3.19.0
+Variant: Pre 3.19.0
 Variant: Current
 Implicits: 0
 (100-120)% increased Evasion Rating
@@ -377,8 +377,8 @@ Variant: Pre 3.16.0
 Variant: Pre 3.21.0
 Variant: Current
 Implicits: 0
-{variant:1}10% chance to Suppress Spell Damage
-{variant:2}20% chance to Suppress Spell Damage
+{variant:1}+10% chance to Suppress Spell Damage
+{variant:2}+20% chance to Suppress Spell Damage
 {variant:1,2}+(30-40) to Dexterity
 {variant:3}(10-15)% increased Dexterity
 {variant:1}(30-50)% increased Evasion Rating
@@ -450,8 +450,8 @@ Projectile Attack Skills have (40-60)% increased Critical Strike Chance
 {variant:2}Projectiles from Attacks have 20% chance to Poison on Hit while you have a Bestial Minion
 {variant:3}Projectiles from Attacks have 20% chance to inflict Bleeding on Hit while you have a Bestial Minion
 {variant:1}(10-15)% increased Attack and Movement Speed while you have a Bestial Minion
-{variant:2}Adds (13-19)-(23-29) Chaos Damage to Attacks while you have a Bestial Minion
-{variant:3}Adds (11-16)-(21-25) Physical Damage to Attacks while you have a Bestial Minion
+{variant:2}Adds (13-19) to (23-29) Chaos Damage to Attacks while you have a Bestial Minion
+{variant:3}Adds (11-16) to (21-25) Physical Damage to Attacks while you have a Bestial Minion
 ]],
 -- Body: Energy Shield
 [[
@@ -776,8 +776,8 @@ You gain an Endurance Charge on Kill
 {variant:1}You gain Onslaught for 1 seconds per Endurance Charge when Hit
 {variant:2}You gain Onslaught for 2 seconds per Endurance Charge when Hit
 {variant:3,4,5}You gain Onslaught for 5 seconds per Endurance Charge when Hit
-{variant:3,4}(60-100)% increased Onslaught Effect
-{variant:5}100% increased Onslaught Effect
+{variant:3,4}(60-100)% increased Effect of Onslaught on you
+{variant:5}100% increased Effect of Onslaught on you
 ]],[[
 Farrul's Fur
 Triumphant Lamellar
@@ -1093,8 +1093,8 @@ Grants Level 15 Blood Offering Skill
 (15-25)% increased maximum Life
 Minions have (20-30)% increased maximum Life
 Regenerate 1% of Life per second
-{variant:1}Minions have (6-10)% chance to Suppress Spell Damage
-{variant:2}Minions have (12-15)% chance to Suppress Spell Damage
+{variant:1}Minions have +(6-10)% chance to Suppress Spell Damage
+{variant:2}Minions have +(12-15)% chance to Suppress Spell Damage
 ]],[[
 Carcass Jack
 Varnished Coat
@@ -1332,6 +1332,15 @@ Variant: Pre 3.0.0 (Energy Shield)
 Variant: Pre 3.0.0 (Armour/ES + Life)
 Variant: Pre 3.0.0 (Armour/ES + ES)
 Variant: Pre 3.0.0 (Armour/Evasion/ES)
+Variant: Pre 3.14.0 (Armour)
+Variant: Pre 3.14.0 (Armour/Evasion)
+Variant: Pre 3.14.0 (Evasion)
+Variant: Pre 3.14.0 (Evasion/ES + Life)
+Variant: Pre 3.14.0 (Evasion/ES + ES)
+Variant: Pre 3.14.0 (Energy Shield)
+Variant: Pre 3.14.0 (Armour/ES + Life)
+Variant: Pre 3.14.0 (Armour/ES + ES)
+Variant: Pre 3.14.0 (Armour/Evasion/ES)
 Variant: Current (Armour)
 Variant: Current (Armour/Evasion)
 Variant: Current (Evasion)
@@ -1342,17 +1351,17 @@ Variant: Current (Armour/ES + Life)
 Variant: Current (Armour/ES + ES)
 Variant: Current (Armour/Evasion/ES)
 Implicits: 1
-+1 to Level of all Vaal Skill Gems
-{variant:1,10}(380-420)% increased Armour
-{variant:2,11}(200-220)% increased Evasion Rating and Armour
-{variant:3,12}(380-420)% increased Evasion Rating
-{variant:4,5,13,14}(200-220)% increased Evasion and Energy Shield
-{variant:6,15}(270-300)% increased Energy Shield
-{variant:7,8,16,17}(200-220)% increased Armour and Energy Shield
-{variant:9,18}(270-340)% increased Armour, Evasion and Energy Shield
-{variant:1,2,3,4,7,10,11,12,13,16}+(90-100) to Maximum Life
+{variant:19,20,21,22,23,24,25,26,27}+1 to Level of all Vaal Skill Gems
+{variant:1,10,19}(380-420)% increased Armour
+{variant:2,11,20}(200-220)% increased Armour and Evasion
+{variant:3,12,21}(380-420)% increased Evasion Rating
+{variant:4,5,13,14,22,23}(200-220)% increased Evasion and Energy Shield
+{variant:6,15,24}(270-300)% increased Energy Shield
+{variant:7,8,16,17,25,26}(200-220)% increased Armour and Energy Shield
+{variant:9,18,27}(270-340)% increased Armour, Evasion and Energy Shield
+{variant:1,2,3,4,7,10,11,12,13,16,19,20,21,22,25}+(90-100) to Maximum Life
 {variant:5,6,8}+(90-100) to Maximum Energy Shield
-{variant:14,15,17}+(70-80) to Maximum Energy Shield
+{variant:14,15,17,23,24,26}+(70-80) to Maximum Energy Shield
 +(20-24)% to all Elemental Resistances
 Gain 100 Life per Enemy Killed
 Gain 100 Mana per Enemy Killed

@@ -127,7 +127,7 @@ Stormcharger
 Plated Greaves
 Variant: Pre 3.19.0
 Variant: Current
-+(1-50)% to Lightning Resistance 
++(1-50)% to Lightning Resistance
 {variant:1}20% increased Movement Speed
 {variant:2}(1-40)% increased Movement Speed
 {variant:1}30% of Physical Damage Converted to Lightning Damage
@@ -207,8 +207,8 @@ Requires Level 69, 120 Dex
 180% increased Evasion Rating
 +(55-75) to maximum Life
 30% increased Movement Speed
-{variant:1}(21-24)% chance to Suppress Spell Damage
-{variant:2}(20-26)% chance to Suppress Spell Damage
+{variant:1}+(21-24)% chance to Suppress Spell Damage
+{variant:2}+(20-26)% chance to Suppress Spell Damage
 ]],[[
 The Blood Dance
 Sharkskin Boots
@@ -247,7 +247,7 @@ Requires Level 22, 42 Dex
 {variant:2,3}15% increased Movement Speed for 9 seconds on Throwing a Trap
 ]],[[
 Orbala's Stand
-Eelskin Boots 
+Eelskin Boots
 (100-150)% increased Evasion Rating
 (20-30)% increased Movement Speed
 Cannot be Stunned by Suppressed Spell Damage
@@ -357,8 +357,8 @@ Variant: Current
 Requires Level 55, 97 Dex
 +(25-35) to Dexterity
 (20-40)% increased Evasion Rating
-{variant:1}40% increased Evasion Rating while you have Onslaught
-{variant:2,3}100% increased Evasion Rating while you have Onslaught
+{variant:1}40% increased Evasion Rating during Onslaught
+{variant:2,3}100% increased Evasion Rating during Onslaught
 {variant:1}+(30-60) to maximum Life
 {variant:2,3}+(50-70) to maximum Life
 {variant:1}20% increased Movement Speed
@@ -627,11 +627,11 @@ Requires Level 65, 62 Str, 62 Dex
 {variant:2,3}(40-70)% increased Armour and Evasion
 +(20-40)% to Lightning Resistance
 5% increased Movement Speed per Frenzy Charge
-+1 to Maximum Frenzy Charge
++1 to Maximum Frenzy Charges
 {variant:1}50% reduced Frenzy Charge Duration
 {variant:2,3}40% reduced Frenzy Charge Duration
 25% reduced Light Radius
-{variant:1,2}2% chance to Suppress Spell Damage per Frenzy Charge
+{variant:1,2}+2% chance to Suppress Spell Damage per Frenzy Charge
 {variant:3}10% increased Evasion Rating per Frenzy Charge
 ]],[[
 Dusktoe
@@ -884,7 +884,7 @@ Triggers Level 20 Death Walk when Equipped
 {variant:3,4}(40-60)% reduced Duration of Elemental Ailments on You while affected by a Rare Abyss Jewel
 {variant:1,2}30% increased Movement Speed
 {variant:3,4}(24-32)% increased Movement Speed while affected by a Magic Abyss Jewel
-{variant:1,2}10% increased Damage for each type of Abyssal Jewel affecting you
+{variant:1,2}10% increased Damage for each type of Abyss Jewel affecting you
 {variant:3,4}(16-24)% increased Reservation Efficiency while affected by a Unique Abyss Jewel
 ]],[[
 Corpsewalker
@@ -975,7 +975,7 @@ Requires Level 16, 18 Dex, 18 Int
 {variant:1}30% increased Physical Damage taken
 {variant:2}20% increased Physical Damage taken
 {variant:3}15% increased Damage taken while on Full Energy Shield
-20% increased Movement Speed when on Full Energy Shield
+20% increased Movement Speed while on Full Energy Shield
 ]],[[
 The Stampede
 Assassin's Boots

@@ -87,11 +87,14 @@ Implicits: 1
 ]],[[
 Astramentis
 Onyx Amulet
+Variant: Pre 0.11.6d
+Variant: Current
 Requires Level 20
-Implicits: 1
-{tags:jewellery_attribute}+(10-16) to all Attributes
+Implicits: 2
+{variant:1}{tags:jewellery_attribute}+(10-20) to all Attributes
+{variant:2}{tags:jewellery_attribute}+(10-16) to all Attributes
 {tags:jewellery_attribute}+(80-100) to all Attributes
-{tags:attack,physical_damage}-4 Physical Damage taken from Attacks
+{tags:attack,physical_damage}-4 Physical Damage taken from Attack Hits
 ]],[[
 Atziri's Foible
 Paua Amulet
@@ -211,7 +214,7 @@ Requires Level: 20
 Implicits: 1
 League: Blight
 {tags:jewellery_attribute}+(16-24) to Dexterity and Intelligence
-(7-10)% increased Cooldown Recovery of Travel Skills per Frenzy Charge
+(7-10)% increased Cooldown Recovery Rate of Travel Skills per Frenzy Charge
 (7-10)% increased Effect of Elusive on you per Power Charge
 (20-25)% chance to lose a Frenzy Charge when you use a Travel Skill
 (20-25)% chance to lose a Power Charge when you gain Elusive
@@ -280,18 +283,20 @@ Moving while Bleeding doesn't cause you to take extra Damage
 ]],[[
 Carnage Heart
 Onyx Amulet
+Variant: Pre 0.11.6d
 Variant: Pre 2.6.0
 Variant: Current
 Requires Level 20
-Implicits: 1
-{tags:jewellery_attribute}+(10-16) to all Attributes
+Implicits: 2
+{variant:1}{tags:jewellery_attribute}+(10-20) to all Attributes
+{variant:2,3}{tags:jewellery_attribute}+(10-16) to all Attributes
 {tags:jewellery_attribute}+(20-40) to all Attributes
-{variant:1}{tags:life}25% reduced maximum Life
-{variant:1}{tags:jewellery_defense}25% reduced maximum Energy Shield
+{variant:1,2}{tags:life}25% reduced maximum Life
+{variant:1,2}{tags:jewellery_defense}25% reduced maximum Energy Shield
 {tags:jewellery_resistance}+(10-20)% to all Elemental Resistances
 {tags:attack,life}(1.2-2)% of Physical Attack Damage Leeched as Life
-{variant:2}{tags:life}(30-40)% increased Damage while Leeching
-{variant:2}{tags:life}50% increased Life Leeched per second
+{variant:3}{tags:life}50% increased total Recovery per second from Life Leech
+{variant:3}{tags:life}(30-40)% increased Damage while Leeching
 Extra Gore
 ]],[[
 Crystallised Omniscience
@@ -315,7 +320,7 @@ Implicits: 1
 {tags:jewellery_resistance}+(30-40)% to Fire Resistance
 {tags:jewellery_resistance}+(30-40)% to Cold Resistance
 {tags:speed}10% increased Movement Speed when on Full Life
-{tags:attack}+2 to Melee Weapon and Unarmed range
+{tags:attack}+2 to Melee Strike Range
 {tags:attack}60% increased Melee Damage when on Full Life
 ]],[[
 The Ephemeral Bond
@@ -357,10 +362,13 @@ Implicits: 1
 ]],[[
 Eye of Chayula
 Onyx Amulet
+Variant: Pre 0.11.6d
+Variant: Current
 Upgrade: Upgrades to unique{Presence of Chayula} using currency{Blessing of Chayula}
 Requires Level 20
-Implicits: 1
-{tags:jewellery_attribute}+(10-16) to all Attributes
+Implicits: 2
+{variant:1}{tags:jewellery_attribute}+(10-20) to all Attributes
+{variant:2}{tags:jewellery_attribute}+(10-16) to all Attributes
 {tags:life}20% reduced maximum Life
 30% increased Rarity of Items found
 Cannot be Stunned
@@ -544,7 +552,7 @@ Implicits: 1
 {variant:1}{tags:attack}+1000 to Accuracy Rating
 {variant:2}{tags:attack}+(600-1000) to Accuracy Rating
 {variant:2}{tags:jewellery_defense}+(600-1000) to Evasion Rating
-{variant:1}(12-20)% chance to Suppress Spell Damage
+{variant:1}+(12-20)% chance to Suppress Spell Damage
 {variant:2}Prevent +3% of Suppressed Spell Damage
 Cannot be Blinded
 ]],[[
@@ -799,7 +807,7 @@ Implicits: 1
 (12-20)% increased Rarity of Items found
 {tags:jewellery_attribute}+(40-50) to Dexterity
 {tags:speed}(5-8)% increased Movement Speed
-Lightning Damage from Enemies Hitting you is Lucky
+Lightning Damage of Enemies Hitting you is Lucky
 Nearby Allies' Damage with Hits is Lucky
 ]],[[
 The Primordial Chain

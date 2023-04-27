@@ -156,7 +156,7 @@ Implicits: 2
 {variant:3}+70 to maximum Mana
 {variant:1,2}(130-160)% increased Physical Damage
 5% reduced Movement Speed
-{variant:1,2}10% increased Area of Effect of Area Skills
+{variant:1,2}10% increased Area of Effect
 {variant:3}(15-25)% increased Area of Effect
 {variant:1,2}(10-15)% increased Area Damage
 {variant:3}(10-20)% increased Area Damage
@@ -233,7 +233,7 @@ Variant: Current
 Requires Level 68, 104 Str, 122 Int
 Implicits: 1
 40% increased Elemental Damage 
-(180-200)% increased Physical Damage 
+(180-220)% increased Physical Damage 
 (10-15)% increased Attack Speed 
 (80-100)% increased Critical Strike Chance 
 50% of Physical Damage Converted to Lightning Damage 
@@ -268,10 +268,15 @@ Recover (1-3)% of Mana on Kill
 ]],[[
 Bitterdream
 Shadow Sceptre
+Variant: Pre 2.3.0
+Variant: Pre 3.11.0
+Variant: Current
 Requires Level 32, 52 Str, 62 Int
-Implicits: 1
-22% increased Elemental Damage
-Socketed Gems are Supported by Level 15 Bonechill
+Implicits: 2
+{variant:1}15% increased Elemental Damage
+{variant:2,3}22% increased Elemental Damage
+{variant:1,2}Socketed Gems are Supported by Level 1 Mana Leech
+{variant:3}Socketed Gems are Supported by Level 15 Bonechill
 Socketed Gems are Supported by Level 15 Hypothermia
 Socketed Gems are Supported by Level 15 Ice Bite
 Socketed Gems are Supported by Level 15 Cold Penetration
@@ -313,8 +318,8 @@ Implicits: 1
 (260-310)% increased Physical Damage
 {variant:1}(60-80)% increased Chaos Damage
 {variant:2}(80-100)% increased Chaos Damage
-10% increased Area of Effect of Area Skills
-40% increased Chaos Skill Effect Duration
+10% increased Area of Effect
+Chaos Skills have 40% increased Skill Effect Duration
 ]],[[
 Brutus' Lead Sprinkler
 Ritual Sceptre
@@ -486,7 +491,7 @@ Implicits: 2
 {variant:1,2,3}Socketed Gems are Supported by Level 10 Added Fire Damage
 {variant:1,2,3}Socketed Gems are Supported by Level 10 Cold to Fire
 {variant:1,2,3,4}Socketed Gems are Supported by Level 10 Fire Penetration
-{variant:4}Socketed Gems deal 63 to 94 additional Fire Damage
+{variant:4}Socketed Gems deal 63 to 94 Added Fire Damage
 {variant:1,2,3,4}(20-30)% increased Spell Damage
 {variant:2,3,4,5}(150-200)% increased Physical Damage
 {variant:5}Adds (76-98) to (161-176) Fire Damage

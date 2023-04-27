@@ -107,10 +107,8 @@ Implicits: 1
 {variant:1}{tags:jewellery_elemental}(10-15)% increased Lightning Damage
 {variant:2}{tags:jewellery_elemental}(25-30)% increased Lightning Damage
 {tags:mana}+(30-40) to maximum Mana
-{variant:1}Shock a nearby Enemy for 2 seconds on Killing a Shocked Enemy
-{variant:2}Shocks all nearby Enemies on Killing a Shocked Enemy
-{variant:1}Ignite a nearby Enemy on Killing an Ignited Enemy
-{variant:2}Ignites all nearby Enemies on Killing an Ignited Enemy
+When you Kill a Shocked Enemy, inflict an equivalent Shock on each nearby Enemy
+When you Kill an Ignited Enemy, inflict an equivalent Ignite on each nearby Enemy
 ]],[[
 Blackflame
 Amethyst Ring
@@ -144,19 +142,22 @@ Voidheart
 Iron Ring
 Source: No longer obtainable
 Variant: Pre 2.4.0
-Variant: Current
+Variant: Pre 3.19.0
+Variant: Current (Divine Orb only)
 Requires Level 48
 Implicits: 1
 {tags:attack,physical_damage}Adds 1 to 4 Physical Damage to Attacks
 {tags:physical_damage}5% increased Global Physical Damage
-{tags:attack,chaos_damage}Adds 1 to 3 Chaos Damage to Attacks
+{variant:1,2}{tags:attack,chaos_damage}Adds 1 to 3 Chaos Damage to Attacks
+{variant:3}{tags:attack,chaos_damage}Adds (10-15) to (20-25) Chaos Damage to Attacks
 {tags:life}+(20-30) to maximum Life
-{tags:life}Regenerate (2-4) Life per second
+{variant:1,2}{tags:life}Regenerate (2-4) Life per second
+{variant:3}{tags:life}Regenerate (10-15) Life per second
 10% chance to Cause Monsters to Flee
 {variant:1}Melee Attacks cause Bleeding
-{variant:2}{tags:attack,physical}(30-50)% chance to cause Bleeding on Melee Hit
+{variant:2,3}{tags:attack,physical}Melee Attacks have (30-50)% chance to cause Bleeding
 {variant:1}Melee Attacks Poison on Hit
-{variant:2}{tags:attack,chaos}(20-40)% chance to Poison on Melee Hit
+{variant:2,3}{tags:attack,chaos}Melee Attacks have (20-40)% chance to Poison on Hit
 ]],[[
 Bloodboil
 Coral Ring
@@ -354,21 +355,23 @@ Death Rush
 Amethyst Ring
 League: Onslaught
 Variant: Pre 2.6.0
+Variant: Pre 3.15.0
 Variant: Pre 3.19.0
 Variant: Current
 Requires Level 46
-Implicits: 1
-{tags:jewellery_resistance}+(17-23)% to Chaos Resistance
-{variant:1,2}{tags:attack}+(300-350) to Accuracy Rating
+Implicits: 2
+{variant:1,2}{tags:jewellery_resistance}+(9-13)% to Chaos Resistance
+{variant:3,4}{tags:jewellery_resistance}+(17-23)% to Chaos Resistance
+{variant:1,2,3}{tags:attack}+(300-350) to Accuracy Rating
 {variant:1}{tags:jewellery_defense}+(60-80) to Armour
-{variant:2}{tags:jewellery_defense}}+(260-300) to Armour
-{variant:2}{tags:life}+(40-50) to maximum Life
-{variant:1,2}{tags:jewellery_resistance}+(15-20)% to Chaos Resistance
-{variant:1,2}{tags:attack,life}(0.6-0.8)% of Physical Attack Damage Leeched as Life
+{variant:2,3}{tags:jewellery_defense}+(260-300) to Armour
+{variant:2,3}{tags:life}+(40-50) to maximum Life
+{variant:1,2,3}{tags:jewellery_resistance}+(15-20)% to Chaos Resistance
+{variant:1,2,3}{tags:attack,life}(0.6-0.8)% of Physical Attack Damage Leeched as Life
 {variant:1}You gain Onslaught for 2 seconds on Kill
-{variant:2}You gain Onslaught for 4 seconds on Kill
-{variant:3}Recover 5% of Life on Kill
-{variant:3}Gain Adrenaline for 3 seconds on kill
+{variant:2,3}You gain Onslaught for 4 seconds on Kill
+{variant:4}Recover 5% of Life on Kill
+{variant:4}Gain Adrenaline for 3 seconds on kill
 ]],[[
 Original Sin
 Amethyst Ring
@@ -825,7 +828,7 @@ Implicits: 1
 {variant:2}2% increased Experience gain
 {variant:1}{tags:jewellery_attribute}3% increased Intelligence for each Unique Item Equipped
 {variant:2}{tags:jewellery_attribute}2% increased Intelligence for each Unique Item Equipped
-3% additional chance for Slain monsters to drop Scrolls of Wisdom
+3% chance for Slain monsters to drop an additional Scroll of Wisdom
 ]],[[
 Polaric Devastation
 Opal Ring

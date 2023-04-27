@@ -165,7 +165,7 @@ Implicits: 2
 {variant:1,2,3,4}10% increased Attack Speed
 {variant:5,6,7}20% increased Attack Speed
 25% of Physical Damage Converted to Chaos Damage
-(15-30)% increased Accuracy Rating
+(15-30)% increased Global Accuracy Rating
 25% of Physical Damage from Hits taken as Chaos Damage
 {variant:5,6,7}20% chance for Poisons inflicted with this Weapon to deal 300% more Damage
 ]],[[

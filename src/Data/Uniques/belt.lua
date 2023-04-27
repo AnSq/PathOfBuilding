@@ -33,8 +33,8 @@ Implicits: 1
 {variant:2,3}{tags:jewellery_defense}+(75-80) to maximum Energy Shield
 {tags:jewellery_resistance}+(10-15)% to all Elemental Resistances
 You have Phasing if Energy Shield Recharge has started Recently
-{variant:1,2}6% increased Evasion while Phasing
-{variant:3}30% increased Evasion while Phasing
+{variant:1,2}6% increased Evasion Rating while Phasing
+{variant:3}30% increased Evasion Rating while Phasing
 {tags:speed}10% increased Movement Speed while Phasing
 ]],[[
 Auxium
@@ -161,7 +161,7 @@ Implicits: 1
 {variant:1}{tags:jewellery_attribute}+(10-15) to all Attributes
 {variant:2}{tags:jewellery_attribute}+(15-20) to all Attributes
 {tags:speed}(5-10)% increased Movement Speed
-Damage from Enemies Hitting you is Unlucky while you are Cursed with Vulnerability
+Damage of Enemies Hitting you is Unlucky while you are Cursed with Vulnerability
 {variant:2}{tags:life}You count as on Full Life while you are Cursed with Vulnerability
 {tags:caster}You are cursed with Vulnerability
 ]],[[
@@ -603,6 +603,7 @@ Non-Unique Utility Flasks you Use apply to Linked Targets
 Chain of Endurance
 Chain Belt
 LevelReq: 14
+Implicits: 1
 +(9-20) to maximum Energy Shield
 +(40-50) to Maximum Life
 (40-60)% increased Stun and Block Recovery

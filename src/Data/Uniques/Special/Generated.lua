@@ -265,8 +265,8 @@ local enduranceChargeMods = {
 		["On Kill"] = "10% chance to gain an Endurance Charge on Kill",
 	},
 	[2] = {
-		["Block Attacks"] = "1% Chance to Block Attack Damage per Endurance Charge",
-		["Spell Suppression"] = "1% chance to Suppress Spell Damage per Endurance Charge",
+		["Block Attacks"] = "+1% Chance to Block Attack Damage per Endurance Charge",
+		["Spell Suppression"] = "+1% chance to Suppress Spell Damage per Endurance Charge",
 		["Chaos Res"] = "+4% to Chaos Resistance per Endurance Charge",
 		["Fire as Chaos"] = "Gain 1% of Fire Damage as Extra Chaos Damage per Endurance Charge",
 		["Attack and Cast Speed"] = "1% increased Attack and Cast Speed per Endurance Charge",
@@ -293,8 +293,8 @@ local frenzyChargeMods = {
 		["On Kill"] = "10% chance to gain an Frenzy Charge on Kill",
 	},
 	[2] = {
-		["Block Attacks"] = "1% Chance to Block Attack Damage per Frenzy Charge",
-		["Spell Suppression"] = "1% chance to Suppress Spell Damage per Frenzy Charge",
+		["Block Attacks"] = "+1% Chance to Block Attack Damage per Frenzy Charge",
+		["Spell Suppression"] = "+1% chance to Suppress Spell Damage per Frenzy Charge",
 		["Accuracy Rating"] = "10% increased Accuracy Rating per Frenzy Charge",
 		["Cold as Chaos"] = "Gain 1% of Cold Damage as Extra Chaos Damage per Frenzy Charge",
 		["Attack and Cast Speed"] = "1% increased Attack and Cast Speed per Frenzy Charge",
@@ -321,8 +321,8 @@ local powerChargeMods = {
 		["On Kill"] = "10% chance to gain an Power Charge on Kill",
 	},
 	[2] = {
-		["Block Attacks"] = "1% Chance to Block Attack Damage per Power Charge",
-		["Spell Suppression"] = "1% chance to Suppress Spell Damage per Power Charge",
+		["Block Attacks"] = "+1% Chance to Block Attack Damage per Power Charge",
+		["Spell Suppression"] = "+1% chance to Suppress Spell Damage per Power Charge",
 		["Phys. Damage Red."] = "1% additional Physical Damage Reduction per Power Charge",
 		["Lightning as Chaos"] = "Gain 1% of Lightning Damage as Extra Chaos Damage per Power Charge",
 		["Attack and Cast Speed"] = "1% increased Attack and Cast Speed per Power Charge",

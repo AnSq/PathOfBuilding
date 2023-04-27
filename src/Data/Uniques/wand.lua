@@ -50,7 +50,7 @@ Variant: Current
 Implicits: 2
 {variant:1,2,3}(18-22)% increased Spell Damage
 {variant:4}(11-15)% increased Spell Damage
-{variant:1,2}10% chance to Trigger Level 8 Summon Raging Spirit on Kill
+{variant:1,2}10% chance to Trigger Level 10 Summon Raging Spirit on Kill
 {variant:3,4}25% chance to Trigger Level 10 Summon Raging Spirit on Kill
 {variant:1}Adds (10-14) to (18-22) Fire Damage
 {variant:3,4}Adds (20-24) to (38-46) Fire Damage

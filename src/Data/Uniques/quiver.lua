@@ -20,7 +20,7 @@ Implicits: 2
 Gain 20% of Physical Damage as Extra Cold Damage
 (7-10)% chance to Freeze
 {variant:1}40% reduced Area of Effect of Hex Skills
-Hexes on Slain Enemies are transferred to a nearby Enemy
+Hexes Transfer to all Enemies in a range of 30 when Hexed Enemy dies
 ]],[[
 Blackgleam
 {variant:1}Cured Quiver
@@ -79,7 +79,7 @@ Implicits: 1
 25% reduced Projectile Speed
 {variant:1}(60-80)% increased Stun Duration on Enemies
 {variant:2}(140-200)% increased Stun Duration on Enemies
-Adds 6 to 10 Physical Damage to Attacks with Bows
+6 to 10 Added Physical Damage with Bow Attacks
 ]],[[
 Cragfall
 Serrated Arrow Quiver
@@ -90,7 +90,7 @@ Implicits: 1
 (20-25)% reduced Enemy Stun Threshold
 25% reduced Projectile Speed
 (60-80)% increased Stun Duration on Enemies
-Adds 6 to 10 Physical Damage to Attacks with Bows
+6 to 10 Added Physical Damage with Bow Attacks
 50% chance to double Stun Duration
 ]],[[
 Drillneck
@@ -135,17 +135,19 @@ Hyrri's Bite
 Sharktooth Arrow Quiver
 Source: Vendor Recipe
 Variant: Pre 2.6.0
+Variant: Pre 3.17.0
 Variant: Current
 Requires Level 14
-Implicits: 1
-Gain (6-8) Life per Enemy Hit with Attacks
+Implicits: 2
+{variant:1,2}Gain (3-4) Life per Enemy Hit with Attacks
+{variant:3}Gain (6-8) Life per Enemy Hit with Attacks
 +(15-25) to Strength
 +(35-45) to Dexterity
 +(15-25) to Intelligence
-{variant:2}Adds 10 to 20 Cold Damage to Attacks
+{variant:2,3}Adds 10 to 20 Cold Damage to Attacks
 (7-10)% increased Attack Speed
 Gain (2-3) Life per Enemy Hit with Attacks
-10% increased Area of Effect of Area Skills
+10% increased Area of Effect
 ]],[[
 Hyrri's Demise
 Sharktooth Arrow Quiver
