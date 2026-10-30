@@ -123,7 +123,7 @@
 	<File name="Data/Pantheons.lua" part="program" sha1="c4a6f94f589521bc6e8376f886b11c8c24e075cb" />
 	<File name="Data/QueryMods.lua" part="program" sha1="ea73e3a6ad3e63321ca410eb8e05c2f2adafd3d3" />
 	<File name="Data/Rares.lua" part="program" sha1="3901663e512fbf4f37e20de4dbcff39c3a3e658b" />
-	<File name="Data/Skills/act_dex.lua" part="program" sha1="6c59ecf7529f920c814fcfc3dcfdbb99d3b37dc2" />
+	<File name="Data/Skills/act_dex.lua" part="program" sha1="667711c282718fa8fdffd588410581d46b877715" />
 	<File name="Data/Skills/act_int.lua" part="program" sha1="52211691c2bdafeca3a69eec0e72013cd1c15a69" />
 	<File name="Data/Skills/act_str.lua" part="program" sha1="27f927328cdd58e8b3c4d6b8bfea8cfe057929f5" />
 	<File name="Data/Skills/glove.lua" part="program" sha1="e0315c8fe86fccf1563711ed91968f03606a804c" />
@@ -194,9 +194,9 @@
 	<File name="Modules/BuildList.lua" part="program" sha1="5c5ee46b6dee4feb5bbfc2f5ef753073fa9303a9" />
 	<File name="Modules/BuildSiteTools.lua" part="program" sha1="29bd9aeb6c14ca265deffea9569b287c498dee0f" />
 	<File name="Modules/CalcActiveSkill.lua" part="program" sha1="9ea42284e1dcef390b5184cd4e15aa3005af0e4e" />
-	<File name="Modules/CalcBreakdown.lua" part="program" sha1="22802179ff0592d55f0216ae59174586cd54ac9a" />
+	<File name="Modules/CalcBreakdown.lua" part="program" sha1="4460ce0aac0086a9667d38131eaeb968cd64b77b" />
 	<File name="Modules/CalcDefence.lua" part="program" sha1="43bd13ed33e0a21edb73d13ebb6438dee2a4dacc" />
-	<File name="Modules/CalcOffence.lua" part="program" sha1="6b14298f6f6bfbcfb7f204f85c713e94c2816c46" />
+	<File name="Modules/CalcOffence.lua" part="program" sha1="73592349ad05da9d0200ed8547d9b814a010a3a6" />
 	<File name="Modules/CalcPerform.lua" part="program" sha1="6058678ff17defaff10f38833002acc0d76b4b23" />
 	<File name="Modules/Calcs.lua" part="program" sha1="9a34ac4eabfbc56410b5aab413fb22b2fafa9c3b" />
 	<File name="Modules/CalcSections.lua" part="program" sha1="0bc265b18e0be9aec068c6bf9839c9dfc45861d9" />
